@@ -14,11 +14,11 @@ const mocks = [
   },
 ];
 
-const mock = new HttpClient(mocks);
+const httpClientMock = new HttpClient(mocks);
 
 it('should pass', async () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Component httpClient={mock} />, div);
+  ReactDOM.render(<Component httpClient={httpClientMock} />, div);
   return eventually(() => {
     expect(div.innerHTML).toMatch('Hello Yaniv');
   });
