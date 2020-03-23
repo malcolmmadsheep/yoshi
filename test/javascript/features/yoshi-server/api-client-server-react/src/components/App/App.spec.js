@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import HttpClient from 'yoshi-server-testing';
 import { HttpProvider } from 'yoshi-server-react';
 import eventually from 'wix-eventually';
-import App from './app';
+import App from './App';
 import { greet } from '../../api/greeting.api';
 
 const mocks = [
