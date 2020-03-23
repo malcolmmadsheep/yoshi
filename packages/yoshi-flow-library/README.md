@@ -50,7 +50,7 @@ Choose `flow-library` & `TypeScript`
 
 > After installing the library through `npm` this is how its output is being routed using the following fields in its `package.json` file
 
-```json
+```
 {
   "main": "dist/cjs/index.js", // for NodeJS, used in component tests
   "module": "dist/es/index.js", // for webpack, because of dynamic import and Tree-Shaking
