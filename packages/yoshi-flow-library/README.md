@@ -4,6 +4,9 @@ A zero configuraiton toolkit to create modern TypeScript libraries in Wix.
 
 > See [App Flow](https://wix.github.io/yoshi/docs/guides/app-flow#__docusaurus) for developing client applications
 
+
+![Editor-flow-example](https://user-images.githubusercontent.com/11733036/77347439-85e60400-6d40-11ea-8270-ae6ac2714a55.gif)
+
 ### What is a library (in the scope of frontend development)?
 
 A library is a chunk of code that you want to reuse between client applications, servers and other libraries. This toolkit focuses on **client libararies**, or libraries that will be consumed in JavaScript client applications.
