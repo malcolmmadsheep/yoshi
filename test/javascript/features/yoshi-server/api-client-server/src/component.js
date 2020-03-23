@@ -5,7 +5,7 @@ export default class App extends React.Component {
   state = { text: '' };
   async componentDidMount() {
     const { httpClient } = this.props;
-    const result = await httpClient.request({method: greet, args: ['Yaniv']});
+    const result = await httpClient.request({ method: greet, args: ['Yaniv'] });
     this.setState({ text: result.greeting });
   }
 
